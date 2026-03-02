@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Navigation -->
+    <nav class="floating-nav" id="navbar">
+        <div class="nav-content">
+            <button class="menu-toggle" id="menuToggle">
+                <span class="menu-icon" id="menuIcon">☰</span>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <button class="nav-link active" data-section="hero">Home</button>
+                <button class="nav-link" data-section="about">About</button>
+                <button class="nav-link" data-section="projects">Projects</button>
+                <button class="nav-link" data-section="contact">Contact</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="mouse-gradient" id="mouseGradient"></div>
+        <div class="morphing-blob blob-1"></div>
+        <div class="morphing-blob blob-2"></div>
+        
+        <div class="hero-content">
+            <div class="parallax-element" id="heroText">
+                <h1 class="hero-title">
+                    Creative<br>Developer
+                </h1>
+                <p class="hero-subtitle">
+                    Crafting digital experiences that blend innovation with artistry
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary hover-lift" data-section="projects">View My Work</button>
+                    <button class="btn btn-outline hover-lift" data-section="contact">Get In Touch</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="chevron-down">⌄</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text parallax-element">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+                        I'm a passionate full-stack developer with a keen eye for design and a love for creating innovative
+                        digital solutions. With over 5 years of experience, I specialize in building scalable web applications
+                        that not only function flawlessly but also provide exceptional user experiences.
+                    </p>
+                    <p class="about-description">
+                        My approach combines technical expertise with creative problem-solving, ensuring every project I work on
+                        pushes the boundaries of what's possible on the web.
+                    </p>
+                    <div class="skills">
+                        <span class="skill-badge">React</span>
+                        <span class="skill-badge">Next.js</span>
+                        <span class="skill-badge">TypeScript</span>
+                        <span class="skill-badge">Node.js</span>
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">AWS</span>
+                        <span class="skill-badge">Docker</span>
+                        <span class="skill-badge">GraphQL</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="creative-developer-portrait.png" alt="Developer portrait">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title centered">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card hover-lift">
+                    <div class="project-image">
+                        <img src="modern-analytics-dashboard.png" alt="AI-Powered Analytics Dashboard">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI-Powered Analytics Dashboard</h3>
+                        <p class="project-description">A comprehensive dashboard that visualizes complex data patterns using machine learning algorithms.</p>
+                        <div class="project-tech">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">TensorFlow</span>
+                            <span class="tech-badge">D3.js</span>
+                        </div>
+                        <button class="btn btn-ghost project-btn">
+                            View Project
+                            <span class="external-icon">↗</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card hover-lift">
+                    <div class="project-image">
+                        <img src="eco-friendly-ecommerce.png" alt="Sustainable E-commerce Platform">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sustainable E-commerce Platform</h3>
+                        <p class="project-description">An eco-friendly marketplace connecting sustainable brands with conscious consumers.</p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Next.js</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">MongoDB</span>
+                            <span class="tech-badge">Stripe</span>
+                        </div>
+                        <button class="btn btn-ghost project-btn">
+                            View Project
+                            <span class="external-icon">↗</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card hover-lift">
+                    <div class="project-image">
+                        <img src="3d-interactive-portfolio.png" alt="Interactive 3D Portfolio">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Interactive 3D Portfolio</h3>
+                        <p class="project-description">A WebGL-powered portfolio showcasing 3D models and interactive experiences.</p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Three.js</span>
+                            <span class="tech-badge">WebGL</span>
+                            <span class="tech-badge">GLSL</span>
+                            <span class="tech-badge">React</span>
+                        </div>
+                        <button class="btn btn-ghost project-btn">
+                            View Project
+                            <span class="external-icon">↗</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title centered">Let's Create Something Amazing</h2>
+                <p class="contact-subtitle">
+                    Ready to bring your ideas to life? I'm always excited to work on new projects and collaborate with fellow creatives.
+                </p>
+
+                <div class="contact-buttons">
+                    <button class="btn btn-primary hover-lift">
+                        <span class="btn-icon">✉</span>
+                        Send Email
+                    </button>
+                    <button class="btn btn-outline hover-lift">
+                        <span class="btn-icon">⚡</span>
+                        GitHub
+                    </button>
+                    <button class="btn btn-outline hover-lift">
+                        <span class="btn-icon">💼</span>
+                        LinkedIn
+                    </button>
+                </div>
+
+                <div class="contact-form-container">
+                    <div class="contact-card hover-lift">
+                        <h3 class="form-title">Quick Contact</h3>
+                        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf7M6ncy1pDa5iVVMG808hVRNlK8dRqxca6kJTOynkcyhUeeA/formResponse" 
+                            method="POST" target="_blank">
+
+                        <!-- Your Name -->
+                        <input type="text" name="entry.434384906" placeholder="Your Name" class="form-input" required>
+
+                        <!-- Your Email -->
+                        <input type="email" name="entry.676999422" placeholder="Your Email" class="form-input" required>
+
+                        <!-- Your Message -->
+                        <textarea name="entry.1473101229" placeholder="Your Message" rows="4" class="form-textarea" required></textarea>
+
+                        <!-- Submit -->
+                        <button type="submit" class="btn btn-primary form-submit" >Send Message</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2024 Creative Developer. Crafted with passion and code.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
